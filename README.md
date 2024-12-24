@@ -10,14 +10,14 @@ This is the backend API for the GameStore project, built with ASP.NET Core. It p
 - [Development](#development)
 
 ## Installation
-
-1. Clone the repository:
 ```bash
+1. Clone the repository:
+
    git clone https://github.com/yourusername/GameStore.Api.git
 
 2.Navigate to the GameStore.Api directory:
 
-    ```bash
+    
     cd GameStore.Api
 
 
