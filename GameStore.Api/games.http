@@ -1,0 +1,26 @@
+GET http://localhost:5160/games
+###
+GET http://localhost:5160/games/3
+###
+POST http://localhost:5160/games
+Content-Type: application/json
+
+{
+   "name": "Destiny 2",
+   "genreId": 3,
+   "price": 99.99,
+   "releaseDate": "2010-09-30"
+}
+###
+PUT http://localhost:5160/games/3
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "Street Fighter II Turbo",
+  "genreId": 1,
+  "price": 99.99,
+  "releaseDate": "1999-02-01"
+}
+###
+DELETE http://localhost:5160/games/2

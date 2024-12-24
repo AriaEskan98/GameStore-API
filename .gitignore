@@ -1,0 +1,13 @@
+
+
+# Ignore the database file
+GameStore.Api/GameStore.db
+
+# Ignore build output directories
+GameStore.Api/bin/
+GameStore.Api/obj/
+
+# Ignore configuration files for local development
+GameStore.Api/appsettings.Development.json
+
+.vs/
